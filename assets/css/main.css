@@ -50318,10 +50318,11 @@ select:invalid {
 }
 
 /* line 1044, src/assets/scss/custom/_style.scss */
-.dropdown-grid.width-full {
-  grid-template-columns: 1fr 1fr;
-  width: 650px;
-}
+/* CHANGED */
+/*.dropdown-grid.width-full {*/
+/*  grid-template-columns: 1fr 1fr;*/
+/*  width: 650px;*/
+/*}*/
 
 /* line 1048, src/assets/scss/custom/_style.scss */
 .width-full-3 {
@@ -50501,7 +50502,9 @@ select:invalid {
 }
 
 /* line 1168, src/assets/scss/custom/_style.scss */
+/* CHANGED */
 .dropdown-grid-item a span {
+    flex-shrink: 0;
   opacity: 0.8;
   font-size: 14px;
   -webkit-transition: all 0.3s ease-in-out;
